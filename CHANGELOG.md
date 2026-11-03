@@ -9,3 +9,4 @@
 - chore: tidy imports ordering note in CONTRIBUTING
 - docs: add a docstring to the scorer module notes
 - docs: mention the JSON output flag
+- style: normalize quotes in a comment
