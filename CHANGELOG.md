@@ -11,3 +11,4 @@
 - docs: mention the JSON output flag
 - style: normalize quotes in a comment
 - chore: add a TODO about embeddings for later
+- docs: link the architecture section from the index
