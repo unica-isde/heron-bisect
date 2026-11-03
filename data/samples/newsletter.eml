@@ -1,0 +1,19 @@
+Return-Path: <bounce@news.example-shop.com>
+Authentication-Results: mx.corp.example; spf=pass smtp.mailfrom=news.example-shop.com; dkim=pass header.d=example-shop.com; dmarc=pass header.from=example-shop.com
+From: "Example Shop News" <news@example-shop.com>
+To: alice@corp.example
+Reply-To: news@example-shop.com
+Subject: Your July newsletter is here
+Date: Mon, 06 Jul 2026 09:14:02 +0000
+Message-ID: <nl-2026-07@example-shop.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi Alice,
+
+Here is what's new this month at Example Shop. Browse the catalogue at
+https://www.example-shop.com/catalogue and manage your preferences at
+https://www.example-shop.com/preferences.
+
+Best,
+The Example Shop team

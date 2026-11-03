@@ -1,0 +1,18 @@
+Return-Path: <security@paypa1-secure.net>
+Authentication-Results: mx.corp.example; spf=fail smtp.mailfrom=paypa1-secure.net; dkim=none; dmarc=fail header.from=paypa1-secure.net
+From: "PayPal Support" <security@paypa1-secure.net>
+To: alice@corp.example
+Reply-To: recovery-desk@mail-verify.net
+Subject: URGENT: your account will be suspended within 24 hours
+Date: Thu, 09 Jul 2026 02:11:53 +0000
+Message-ID: <8823aa@paypa1-secure.net>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear customer,</p>
+<p>We detected unusual activity. You must verify your account immediately or
+it will be permanently suspended.</p>
+<p><a href="http://192.0.2.44/login">https://www.paypal.com/signin</a></p>
+<p>PayPal Security Team</p>
+</body></html>

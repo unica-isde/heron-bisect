@@ -1,0 +1,24 @@
+Return-Path: <receipts@billing.saas-tool.example>
+Authentication-Results: mx.corp.example; spf=pass smtp.mailfrom=billing.saas-tool.example; dkim=pass header.d=saas-tool.example; dmarc=pass header.from=saas-tool.example
+From: "SaaS Tool Billing" <receipts@saas-tool.example>
+To: alice@corp.example
+Subject: Receipt for invoice #48213
+Date: Wed, 08 Jul 2026 11:40:19 +0000
+Message-ID: <inv-48213@saas-tool.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset="utf-8"
+
+Your payment of EUR 49.00 was received. View the invoice:
+https://billing.saas-tool.example/invoices/48213
+
+--b1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Your payment of EUR 49.00 was received.</p>
+<p><a href="https://billing.saas-tool.example/invoices/48213">billing.saas-tool.example/invoices/48213</a></p>
+</body></html>
+--b1--

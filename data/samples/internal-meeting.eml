@@ -1,0 +1,16 @@
+Return-Path: <bob@corp.example>
+Authentication-Results: mx.corp.example; spf=pass smtp.mailfrom=corp.example; dkim=pass header.d=corp.example; dmarc=pass header.from=corp.example
+From: "Bob Chen" <bob@corp.example>
+To: alice@corp.example
+Subject: Sprint retro moved to 15:00
+Date: Tue, 07 Jul 2026 08:02:44 +0000
+Message-ID: <retro-move-1@corp.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi Alice,
+
+quick heads-up: today's retro is moved to 15:00, same room. Agenda in the
+usual doc.
+
+Bob

@@ -1,0 +1,14 @@
+Return-Path: <promo@marketing-blast.example>
+Authentication-Results: mx.corp.example; spf=pass smtp.mailfrom=marketing-blast.example; dkim=pass header.d=marketing-blast.example; dmarc=pass header.from=marketing-blast.example
+From: "Rewards Center" <promo@marketing-blast.example>
+To: alice@corp.example
+Reply-To: claims-office@amaz0n-rewards.net
+Subject: Congratulations! You are our winner - claim your gift card now
+Date: Fri, 10 Jul 2026 17:30:00 +0000
+Message-ID: <promo-99@marketing-blast.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Congratulations! You have been selected to receive a 500 EUR gift card.
+Act now, this offer expires today. Reply with your details or claim at
+http://amaz0n-rewards.net/claim to verify your identity.
