@@ -38,7 +38,7 @@ def link_score(email: ParsedEmail) -> int:
 
 def brand_score(email: ParsedEmail) -> int:
     """Points when the sender name claims a brand but the address is elsewhere."""
-    low = email.sender.lower()
+    low = email.from_domain or ""
     return sum(W_BRAND_MISMATCH for brand in BRANDS
                if brand in low and brand + ".com" not in low)
 
