@@ -5,3 +5,4 @@
 - chore: note supported Python versions
 - docs: clarify how thresholds map to verdicts
 - refactor: rename a local variable for readability
+- docs: add an example command to the README
