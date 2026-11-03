@@ -13,3 +13,4 @@
 - chore: add a TODO about embeddings for later
 - docs: link the architecture section from the index
 - refactor: extract a constant name in the CLI comment
+- chore: bump changelog date header
